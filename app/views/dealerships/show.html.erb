@@ -10,10 +10,8 @@
   <%= @dealership.address %>
 </p>
 
-<p>
-  <strong>User:</strong>
-  <%= @dealership.user_id %>
-</p>
 
-<%= link_to 'Edit', edit_dealership_path(@dealership) %> |
+<%if current_user && current_user.admin? %>
+  <%= link_to 'Edit', edit_dealership_path(@dealership) %>
+<% end %>
 <%= link_to 'Back', dealerships_path %>
