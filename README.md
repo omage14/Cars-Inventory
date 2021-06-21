@@ -37,7 +37,7 @@ gem 'scaffold'
 gem 'rspec-rails'
 gem 'shoulda-matchers'
 gem 'sqlite3'
-gem 'rails_12factor'
+
  
 ```
  * Configuration
@@ -48,7 +48,7 @@ gem 'rails_12factor'
 
  ruby  '3.0.0'
  rails, '~> 6.1.2', '>= 6.1.2.1'
- rspec-rails
+ 
  devise
 ```
 ---
@@ -67,10 +67,10 @@ cd in to the car_inventory in your code editior and run
  ```
 
  * How to run the test suite
-To run test
+To run rails  test
+on terminal 
  ```
- run command  "bundle exec rspec"
-```
+
 
 
 
